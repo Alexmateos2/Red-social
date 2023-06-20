@@ -1,0 +1,18 @@
+.navbar{
+    background-color: #eccca5;
+    border-bottom: 1px solid white;
+    transition: background-color 1s ease;
+   
+}
+.nav-item{
+  font-size: 20px;
+}
+.navbar-nav{
+  gap:10px;
+  margin-right: 200px;
+}
+.navbar-toggler:hover{
+  transform: translateY(0px);
+  background-color: lightgrey;
+  color: white;
+}

@@ -1,0 +1,30 @@
+.usuarios{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Deftone Stylus', sans-serif;
+    font-size: 5rem;
+}
+table , th ,td {
+    background-color: lightgrey;
+    border: 1px solid black;
+
+}
+
+.table-container {
+    margin: 10px;
+    text-align: center;
+  }
+.listaUsuarios{
+    margin-top: 30px;
+    width: 20%;
+}
+
+  @media (max-width: 900px) {
+    table.table {
+      font-size: 12px;
+    }
+    .listaUsuarios{
+        width: auto;
+    }
+  }

@@ -1,0 +1,406 @@
+.main{
+    margin-top: 25px;
+}
+.cabeza{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    gap: 20px;
+
+  }
+  #publicacion {
+    height: 100px;
+  }
+  .fecha{
+    font-size: 15px;
+   
+  }
+  .dark-mode {
+      background-color: #151e21;
+      color: #fff;
+      transition: background-color 1s ease;
+    }
+    .dark-mode .titulos,.dark-mode .contador{
+      color: black;
+    }
+    .svg-main{
+      border: 1px solid rgb(44, 62, 80);
+      border-radius: 50px;
+      width: 50px;
+      height: 50px;
+      margin-top: 5px;
+    }
+    .dark-mode .izquierda {
+      background-color: #444; /* color de fondo en modo oscuro */
+      transition: background-color 1s ease;
+      border: 1px solid grey
+    }
+    .dark-mode .amigo1, .dark-mode .dropdown-menu {
+      background-color: #444; /* color de fondo en modo oscuro */
+      border: 1px solid grey;
+      transition: background-color 1s ease;
+    }
+    .dark-mode .mensaje {
+      background-color: #444; /* color de fondo en modo oscuro */
+      color: #000;
+      border: 1px solid grey;
+      transition: background-color 1s ease;
+    }
+    .dark-mode .navbar {
+      background-color: #444; /* color de fondo en modo oscuro */
+      border: 1px solid grey;
+      transition: background-color 1s ease;
+    }
+    .dark-mode .fixed {
+      background-color: #151e21; /* color de fondo en modo oscuro */
+      border: 1px solid grey;
+      transition: background-color 1s ease;
+    }
+    .dark-mode .derecha,.dark-mode .prueba {
+      background-color: #444; /* color de fondo en modo oscuro */
+      border: 1px solid grey;
+      transition: background-color 1s ease;
+    }
+    .dark-mode .btn {
+      background-color: #A0A7AC; /* color de fondo en modo oscuro */
+    }
+    .dark-mode .modal-body,.dark-mode .modal-header, .dark-mode .modal-footer {
+      background-color: #444;  /* color de fondo en modo oscuro */
+    }
+  .dark-mode .dropdown-item{
+    color: lightgray;
+  }
+  .container-fluid{
+    display: flex;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+  }
+ 
+  .alias{
+   
+    font-size:20px ;
+  }
+  .pr{
+      margin-top: 10px;
+      color: black;
+  }
+ 
+  .row .main{
+      margin-top: 40px;
+  }
+  .caja{
+      border: 1px solid white;
+      border-radius: 10px;
+      background-color: #eccca5;
+      box-shadow: 2px 2px 2px black;
+      height: fit-content;
+  }
+  .central{
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .btn{
+      background-color: #e7e7e7;
+      color:black;
+      border:1px solid black !important ;
+  
+  }
+  .mainButton{
+    
+    background-color: #e7e7e78d !important;
+    color: black !important;
+  }
+  .izquierda{
+      position: fixed;
+      left: 0;
+      border-top: 1px solid white;
+      border-right: 1px solid white;
+      border-bottom: 1px solid white;
+      border-radius: 10px;
+      background-color: #eccca5;
+      box-shadow: 2px 2px 2px black;
+      height: 100vw;
+      padding: 60px;
+      transition: background-color 1s ease;
+  }
+  .derecha{
+    text-align: center;
+    position: fixed;
+    right: 0;
+    height: 100vw;
+    transition: background-color 1s ease;
+      
+  }
+  .enviar-main{
+      margin-top: 10px;
+  }
+  .a1{
+    margin: 10px;
+    width: 50%;
+  }
+  .lateral{
+      width: 70%;
+      border-radius: 5px;
+  }
+  .mensaje{
+      padding: 10px;
+      transition: background-color 1s ease;
+  }
+  textarea{
+      border: 2px solid gray;
+      box-shadow: 1px 1px  whitesmoke;
+      border-radius: 10px;
+      margin-top: 10px;
+  }
+  .Solicitudes_amistad{
+    margin-top: 20px;
+    text-decoration: underline;
+    font-family:'Deftone Stylus', sans-serif; 
+  }
+  .a{
+     margin-top: 15px;
+     padding: 10px;
+  }
+  .nav-link:hover, .trs:hover, a:hover{
+    color: #fff;
+  }
+  .nombre{
+      text-decoration: underline;
+  }
+  .amigos{
+      margin-right: 10px;
+      border-radius: 5px;
+  }
+  .amigo1{
+      margin-top: 30px;
+      transition: background-color 1s ease;
+  }
+  .fixed{
+      border: 1px solid white;
+      position: fixed;
+      bottom: 50px;
+      right: 0;
+      width: fit-content;
+      height: fit-content;
+      margin-right: 10px;
+      background-color: #d4b895;
+      border-radius: 5px;
+      padding: 10px;
+      transition: background-color 1s ease;
+     }
+ 
+  .enviar{
+      border-radius: 3px;
+  }
+  .like{
+      width: fit-content;
+      margin-bottom: 10px;
+      margin-top: 5px;
+  }
+  .contador{
+    border: black solid 1px;
+    width: 50px;
+    height: 28px;
+    border-radius: 15%;
+    background-color: lightgray;
+    
+  }
+  .like-container{
+    display: flex;
+    align-items: baseline;
+    justify-content:space-evenly;
+  
+  }
+  .btn{
+      border: 2px solid lightgrey;
+      transition: transform 0.3s , background-color 0.3s, color 0.3s ;
+      border-radius: 5px;
+      border: 1px solid black;
+      }
+  .btn:hover{
+      transform: translateY(-5px);
+      background-color: lightblue;
+      color: white;
+      border: 1px solid black;
+      }
+  
+  .like:hover{
+      background-color: red;
+  }
+ .menuPosts{
+  background-color: transparent !important;
+  border: none !important;
+ }
+ 
+
+  .botones{
+    border: none;
+    display: flex;
+    justify-content: center;
+    gap:40px
+  }
+  .botones .btn {
+  font-family: 'Deftone Stylus', sans-serif;
+  font-size: 30px;
+   text-align: center;
+   margin-bottom: 10px;
+   background-color: transparent;
+   border: 0px;
+  }
+  .primero, .segundo{
+    border-bottom: 1px solid black;
+  }
+  .dropdown-menu{
+    font-family:'Deftone Stylus', sans-serif; 
+    font-size: 30px;
+    background-color: #eccca5;
+    border-color: whitesmoke;
+    }
+  .boton{
+      margin-top: 10px;
+  }
+  .aceptar:hover{
+      background-color: green;
+  }
+  .rechazar:hover{
+      background-color: red;
+  }
+  .trs{
+    background-color:transparent;
+    border: none;
+    margin-top: 7px;
+    color: rgb(0 0 0 / 65%);
+      
+  }
+ 
+  .switch {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 34px;
+      border-radius: 20px;
+      margin: 0 auto;
+  
+    }
+    
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      -webkit-transition: .4s;
+      transition: .4s;
+      border-radius: 20px;
+  }
+    
+    
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      -webkit-transition: .4s;
+      transition: .4s;
+      border-radius: 20px;
+  }
+  
+    
+    
+    input:checked + .slider {
+      background-color: #151e21;
+      border-radius: 20px;
+      border: 1px solid grey;
+  }
+    
+    
+    input:focus + .slider {
+      box-shadow: 0 0 1px #2196F3;
+  }
+    
+    
+    input:checked + .slider:before {
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px);
+  
+    }
+    .username{
+      text-decoration: underline;
+      font-weight: bold;
+    }
+    .dark-mode .username, .dark-mode .pais, .dark-mode label{
+      color: #000;
+    }
+    .foto{
+      border-radius: 30px;
+      width: 60px;
+      height: 50px;
+      margin-top: 5px;
+      border: 1px solid white;
+    }
+    
+  
+    .pais{
+      font-weight: bold;
+    }
+    .prueba{
+      width: 90%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border-radius: 3px;
+      border: 1px solid white;
+      transition: background-color 1s ease;
+      transition:0.3s;
+    }
+    .prueba:hover {
+      width: 100%;
+      transition:0.3s;
+    }
+    .prueba.zoom {
+      width: 90%;
+    }
+    @media (max-width: 991px) { 
+        .central{
+            width: 90%;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .fixed{
+            display: none;
+        }
+        .derecha{
+            position: static;
+            width: 90%;
+            margin: 20px auto;
+            height: fit-content;
+            
+        }
+        .izquierda{
+            position: static;
+           width: 90%;
+           margin: 20px auto;
+           height: fit-content;
+    
+        }
+    
+       
+        .botones{
+            width: 90%;
+        }
+      
+    }
